@@ -1,0 +1,19 @@
+================================================================================
+STEP 6.16 - CENTRALIZED BASELINE - 3 MATCHED SEEDS
+================================================================================
+
+Seeds: 42, 123, 2026
+Epochs: 40
+Effective batch: 32
+Micro-batch: 4
+Accumulation: 8
+Optimizer: Adam
+Learning rate: 0.001
+True multi-label: YES
+Official test fold 10 used only after final epoch.
+
+FINAL CENTRALIZED TEST PERFORMANCE - MEAN +/- STD
+loss           : 0.381790 +/- 0.010852
+macro_f1       : 0.702354 +/- 0.006029
+macro_auroc    : 0.913414 +/- 0.000570
+exact_match    : 0.596540 +/- 0.004955

@@ -1,0 +1,20 @@
+# Model checkpoints & resume states (large)
+*.pt
+*.pth
+# Raw PTB-XL data (download from PhysioNet)
+records100/
+records500/
+ptbxl_database.csv
+scp_statements.csv
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+# LaTeX build
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
